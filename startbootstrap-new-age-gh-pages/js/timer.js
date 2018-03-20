@@ -1,3 +1,7 @@
+$(document).ready(function() {
+
+
+
 // Set the date we're counting down to
 var countDownDate = new Date("April 19, 2018 23:59:00").getTime();
 
@@ -26,3 +30,6 @@ var x = setInterval(function() {
         document.getElementById("time-left").innerHTML = "BABY EVANS HAS BEEN BORN!";
     }
 }, 1000);
+
+
+});
